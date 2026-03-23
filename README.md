@@ -17,15 +17,15 @@ O modelo desenvolvido não apenas identifica alunos em risco, mas também fornec
 # Arquitetura
 
 
-**• #Engenharia de dados:** 
+**• Engenharia de dados:** 
 
 Após o processo de engenharia de dados, os registros foram unificados em um único dataset contendo aproximadamente:<br/>
 <BR/> •3030 registros<br/>
 <BR/>•24 variáveis principais<br/>
 <BR/>•3 anos de acompanhamento<br/><br/>
 
-  ** Principais indicadores educacionais**<BR/>
-  •	Os indicadores presentes no dataset refletem diferentes dimensões do desenvolvimento do aluno. <br/>
+  **Principais indicadores educacionais**<BR/>
+  Os indicadores presentes no dataset refletem diferentes dimensões do desenvolvimento do aluno. <br/>
  	
   **Indicador	e seu significado**
  	<BR/> •INDE = 	Índice de desempenho educacional geral
@@ -51,16 +51,46 @@ Foi realizado um processo completo de data cleaning e padronização, pois o dat
 •	inconsistência no formato de datas;
 
 
-**Padronização de colunas:**<BR/>
+**Padronização de colunas:** <BR/>
 •	remoção de acentos
 •	padronização de nomes
 •	unificação de indicadores
 
-**Tratamento de valores faltantes:**<BR/>
+**Tratamento de valores faltantes:** <BR/>
 •	Em especial, o indicador IPP não existia no dataset de 2022.
 Para resolver esse problema foi utilizado um método de imputação baseado em similaridade: 
 
 **KNN Imputer:** Esse método estima valores ausentes com base em alunos semelhantes considerando os demais indicadores.
+
+**Engenharia de Features:** <BR/>
+
+Para melhorar o desempenho do modelo foram criadas features temporais, que capturam a evolução do aluno ao longo dos anos.
+Tempo no programa, sendo elas: 
+
+<BR/>
+• TEMPO_PROGRAMA = ANO_ATUAL - ANO_INGRESSO
+Essa variável mede o tempo de permanência do aluno no programa.
+
+<BR/>
+•REPETENTE_FASE
+Uma variável binária indicando se o aluno permaneceu na mesma fase por mais de um ano.
+Isso permite capturar possíveis dificuldades de progressão no programa.
+
+<BR/>
+Variação anual dos indicadores
+Além disso, as mudanças nos indicadores entre anos consecutivos foram calculadas.
+Exemplo:
+•	DELTA_IDA
+•	DELTA_IEG
+•	DELTA_IAA
+•	DELTA_IPS
+•	DELTA_IPP
+•	DELTA_IPV
+<BR/>
+Essas variáveis capturam tendências de melhora ou deterioração no desempenho do aluno.
+
+
+
 
 
 
