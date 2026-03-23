@@ -52,6 +52,7 @@ Foi realizado um processo completo de data cleaning e padronização, pois o dat
 <BR/>•	remoção de acentos
 <BR/>•	padronização de nomes
 <BR/>•	unificação de indicadores
+<BR/>
 
 <img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/daf6479c-e05c-4b96-a515-e27d185bd187" /> **Tratamento de valores faltantes:** <BR/>
 <BR/>•	Em especial, o indicador IPP não existia no dataset de 2022.
