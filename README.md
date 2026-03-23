@@ -1,4 +1,4 @@
-# Datathon Passos Mágicos
+# Datathon Passos Mágicos ✨👣
 
 <img width="29" height="39" alt="image" src="https://github.com/user-attachments/assets/c7c68151-ec02-4412-ac92-a413aca097c6" />  **Proposta:**
 
@@ -9,10 +9,8 @@ Em uma análise orientada por dados, que combina análise exploratória, engenha
 O modelo desenvolvido não apenas identifica alunos em risco, mas também fornece insights sobre os fatores que mais influenciam a trajetória educacional, contribuindo para intervenções mais eficientes.
 
 
-<img width="25" height="35" alt="image" src="https://github.com/user-attachments/assets/f6a95ab0-ed8d-4357-b1f5-f198503a997d" />  **A leitura completa do documento executivo pode ser feita aqui:**<BR/><BR/>
+<img width="25" height="35" alt="image" src="https://github.com/user-attachments/assets/f6a95ab0-ed8d-4357-b1f5-f198503a997d" />  **A leitura completa do documento executivo pode ser feita no arquivo disponivel no repositório**<BR/><BR/>
 
- <img width="25" height="35" alt="image" src="https://github.com/user-attachments/assets/291c7ccb-1da0-4e5e-a4e6-418759ad421d"/>   **Limitações do estudo:**
-É importante ressaltar que os dados da PNAD COVID-19 são baseados em entrevistas domiciliares e autorrelato, não em prontuários médicos. Dessa forma, as conclusões refletem a percepção e o conhecimento dos entrevistados e não devem ser confundidas com dados clínicos de diagnóstico confirmado.
 
 # Arquitetura
 <BR/>
@@ -54,7 +52,7 @@ Foi realizado um processo completo de data cleaning e padronização, pois o dat
 <BR/>•	unificação de indicadores
 <BR/>
 
-<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/daf6479c-e05c-4b96-a515-e27d185bd187" /> **Tratamento de valores faltantes:** <BR/>
+<BR/> <img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/daf6479c-e05c-4b96-a515-e27d185bd187" /> **Tratamento de valores faltantes:** <BR/>
 <BR/>•	Em especial, o indicador IPP não existia no dataset de 2022.
 Para resolver esse problema foi utilizado um método de imputação baseado em similaridade: 
 
