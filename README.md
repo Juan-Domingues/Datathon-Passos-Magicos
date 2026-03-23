@@ -17,7 +17,7 @@ O modelo desenvolvido não apenas identifica alunos em risco, mas também fornec
 # Arquitetura
 
 
-**• Engenharia de dados:** 
+**• #Engenharia de dados:** 
 
 Após o processo de engenharia de dados, os registros foram unificados em um único dataset contendo aproximadamente:<br/>
 <BR/> •3030 registros<br/>
@@ -27,15 +27,15 @@ Após o processo de engenharia de dados, os registros foram unificados em um ún
   ** Principais indicadores educacionais**<BR/>
   •	Os indicadores presentes no dataset refletem diferentes dimensões do desenvolvimento do aluno. <br/>
  	
-  **Indicador	Significado**
- 	<BR/> •INDE	Índice de desempenho educacional geral
- <BR/>	 •IAN	Adequação do nível educacional
-<BR/>   •IDA	Desempenho acadêmico
-<BR/> 	 •IEG	Engajamento nas atividades
- <BR/>	 •IAA	Autoavaliação do aluno
-<BR/> 	 •IPS	Indicador psicossocial
-<BR/> 	 •IPP	Indicador psicopedagógico
- <BR/>	 •IPV	Ponto de virada no desenvolvimento
+  **Indicador	e seu significado**
+ 	<BR/> •INDE = 	Índice de desempenho educacional geral
+ <BR/>	 •IAN =	Adequação do nível educacional
+<BR/>   •IDA	= Desempenho acadêmico
+<BR/> 	 •IEG = 	Engajamento nas atividades
+ <BR/>	 •IAA = 	Autoavaliação do aluno
+<BR/> 	 •IPS	= Indicador psicossocial
+<BR/> 	 •IPP = 	Indicador psicopedagógico
+ <BR/>	 •IPV =	Ponto de virada no desenvolvimento
 
 <BR/> Esses indicadores variam de 0 a 10, permitindo avaliar o desempenho e evolução dos estudantes ao longo do tempo.
 
