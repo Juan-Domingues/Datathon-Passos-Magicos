@@ -67,7 +67,7 @@ Para resolver esse problema foi utilizado um método de imputação baseado em s
 Para melhorar o desempenho do modelo foram criadas features temporais, que capturam a evolução do aluno ao longo dos anos.
 Tempo no programa, sendo elas: 
 
-<BR/><BR/><img width="24" height="24" alt="image" src="https://github.com/user-attachments/assets/a9d08294-a9ea-4b84-9eb7-cec9203d0ad8" /> **Tempo de prtograma:**
+<BR/><BR/><img width="24" height="24" alt="image" src="https://github.com/user-attachments/assets/a9d08294-a9ea-4b84-9eb7-cec9203d0ad8" /> **Tempo de programa**
 <BR/> • TEMPO_PROGRAMA = ANO_ATUAL - ANO_INGRESSO<BR/><BR/>
 Essa variável mede o tempo de permanência do aluno no programa.<BR/>
 
@@ -78,8 +78,7 @@ Uma variável binária indicando se o aluno permaneceu na mesma fase por mais de
 Isso permite capturar possíveis dificuldades de progressão no programa.<BR/>
 
 <BR/>
-<BR/><img width="24" height="24" alt="image" src="https://github.com/user-attachments/assets/a9d08294-a9ea-4b84-9eb7-cec9203d0ad8" /> 
-**Variação anual dos indicadores:**
+<BR/><img width="24" height="24" alt="image" src="https://github.com/user-attachments/assets/a9d08294-a9ea-4b84-9eb7-cec9203d0ad8" /> **Variação anual dos indicadores**
 <BR/>Além disso, as mudanças nos indicadores entre anos consecutivos foram calculadas.
 <BR/>Exemplo:
 <BR/>
@@ -89,7 +88,7 @@ Isso permite capturar possíveis dificuldades de progressão no programa.<BR/>
 <BR/>•	DELTA_IPS
 <BR/>•	DELTA_IPP
 <BR/>•	DELTA_IPV
-<BR/>
+<BR/><BR/>
 Essas variáveis capturam tendências de melhora ou deterioração no desempenho do aluno.
 
 
