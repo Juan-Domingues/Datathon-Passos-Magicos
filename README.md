@@ -48,7 +48,7 @@ Foi realizado um processo completo de data cleaning e padronização, pois o dat
 <BR/>•	inconsistência no formato de datas;
 
 <BR/>
-<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/3beb991f-30b9-430b-9043-1094085845b2" /> **Padronização de colunas:** <BR/>
+<BR/><BR/><img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/3beb991f-30b9-430b-9043-1094085845b2" /> **Padronização de colunas:** <BR/>
 <BR/>•	remoção de acentos
 <BR/>•	padronização de nomes
 <BR/>•	unificação de indicadores
