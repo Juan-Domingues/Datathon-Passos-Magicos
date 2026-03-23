@@ -10,10 +10,10 @@ O modelo desenvolvido não apenas identifica alunos em risco, mas também fornec
 
 **• Engenharia de dados:** 
 
-Após o processo de engenharia de dados, os registros foram unificados em um único dataset contendo aproximadamente:
-•3030 registros
-•24 variáveis principais
-•3 anos de acompanhamento
+Após o processo de engenharia de dados, os registros foram unificados em um único dataset contendo aproximadamente:<br/>
+•3030 registros<br/>
+•24 variáveis principais<br/>
+•3 anos de acompanhamento<br/><br/>
 
 
 <img width="25" height="35" alt="image" src="https://github.com/user-attachments/assets/f6a95ab0-ed8d-4357-b1f5-f198503a997d" />  **A leitura completa do documento executivo pode ser feita aqui:**<BR/><BR/>
