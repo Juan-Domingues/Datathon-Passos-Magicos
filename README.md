@@ -59,8 +59,8 @@ Para resolver esse problema foi utilizado um método de imputação baseado em s
 
 <BR/>**KNN Imputer:** Esse método estima valores ausentes com base em alunos semelhantes considerando os demais indicadores.
 
-<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/f11de075-b161-4b74-a07f-665beaa8b927" />
-<BR/>**Engenharia de Features:** <BR/>
+<BR/>
+<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/f11de075-b161-4b74-a07f-665beaa8b927" /> **Engenharia de Features:** <BR/>
 
 Para melhorar o desempenho do modelo foram criadas features temporais, que capturam a evolução do aluno ao longo dos anos.
 Tempo no programa, sendo elas: 
