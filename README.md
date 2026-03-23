@@ -24,10 +24,10 @@ Após o processo de engenharia de dados, os registros foram unificados em um ún
 <BR/>•24 variáveis principais<br/>
 <BR/>•3 anos de acompanhamento<br/><br/>
 
- <img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/2fbdd06f-5f36-4eda-b842-0549ba87a515" />  **Principais indicadores educacionais**<BR/>
+ <img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/2fbdd06f-5f36-4eda-b842-0549ba87a515" />   **Principais indicadores educacionais**<BR/>
   Os indicadores presentes no dataset refletem diferentes dimensões do desenvolvimento do aluno. <br/>
  	
-  **Indicador	e seu significado**
+  **Indicador	e seu significado:**
  	<BR/> •INDE = 	Índice de desempenho educacional geral
  <BR/>	 •IAN =	Adequação do nível educacional
 <BR/>   •IDA	= Desempenho acadêmico
@@ -40,30 +40,29 @@ Após o processo de engenharia de dados, os registros foram unificados em um ún
 <BR/> Esses indicadores variam de 0 a 10, permitindo avaliar o desempenho e evolução dos estudantes ao longo do tempo.
 
 
-<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/e93cf9f3-d96d-48a7-b5ce-bf412b487893" />
-# Engenharia de dados <br/>
+<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/e93cf9f3-d96d-48a7-b5ce-bf412b487893" />  #Engenharia de dados <br/>
 Foi realizado um processo completo de data cleaning e padronização, pois o dataset apresentava diversos desafios,incluindo:
 <BR/>
-• O dataset original apresentava diversos desafios:
-•	colunas inconsistentes entre anos;
-•	valores ausentes;
-•	formatação incorreta de algumas variáveis;
-•	indicadores ausentes em determinados anos;
+<BR/>• O dataset original apresentava diversos desafios:
+<BR/>•	colunas inconsistentes entre anos;
+<BR/>•	valores ausentes;
+<BR/>•	formatação incorreta de algumas variáveis;
+<BR/><BR/>•	indicadores ausentes em determinados anos;
 •	inconsistência no formato de datas;
 
 
 **Padronização de colunas:** <BR/>
-•	remoção de acentos
-•	padronização de nomes
-•	unificação de indicadores
+<BR/>•	remoção de acentos
+<BR/>•	padronização de nomes
+<BR/>•	unificação de indicadores
 
 **Tratamento de valores faltantes:** <BR/>
-•	Em especial, o indicador IPP não existia no dataset de 2022.
+<BR/>•	Em especial, o indicador IPP não existia no dataset de 2022.
 Para resolver esse problema foi utilizado um método de imputação baseado em similaridade: 
 
-**KNN Imputer:** Esse método estima valores ausentes com base em alunos semelhantes considerando os demais indicadores.
+<BR/>**KNN Imputer:** Esse método estima valores ausentes com base em alunos semelhantes considerando os demais indicadores.
 
-**Engenharia de Features:** <BR/>
+<BR/>**Engenharia de Features:** <BR/>
 
 Para melhorar o desempenho do modelo foram criadas features temporais, que capturam a evolução do aluno ao longo dos anos.
 Tempo no programa, sendo elas: 
