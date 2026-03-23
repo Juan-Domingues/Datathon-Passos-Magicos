@@ -68,24 +68,24 @@ Para melhorar o desempenho do modelo foram criadas features temporais, que captu
 Tempo no programa, sendo elas: 
 
 <BR/>
-• TEMPO_PROGRAMA = ANO_ATUAL - ANO_INGRESSO
+• TEMPO_PROGRAMA = ANO_ATUAL - ANO_INGRESSO<BR/>
 Essa variável mede o tempo de permanência do aluno no programa.
 
 <BR/>
-•REPETENTE_FASE
+•REPETENTE_FASE<BR/>
 Uma variável binária indicando se o aluno permaneceu na mesma fase por mais de um ano.
 Isso permite capturar possíveis dificuldades de progressão no programa.
 
 <BR/>
 Variação anual dos indicadores
-Além disso, as mudanças nos indicadores entre anos consecutivos foram calculadas.
-Exemplo:
-•	DELTA_IDA
-•	DELTA_IEG
-•	DELTA_IAA
-•	DELTA_IPS
-•	DELTA_IPP
-•	DELTA_IPV
+<BR/>Além disso, as mudanças nos indicadores entre anos consecutivos foram calculadas.
+<BR/>Exemplo:
+<BR/>•	DELTA_IDA
+<BR/>•	DELTA_IEG
+<BR/>•	DELTA_IAA
+<BR/>•	DELTA_IPS
+<BR/>•	DELTA_IPP
+<BR/>•	DELTA_IPV
 <BR/>
 Essas variáveis capturam tendências de melhora ou deterioração no desempenho do aluno.
 
