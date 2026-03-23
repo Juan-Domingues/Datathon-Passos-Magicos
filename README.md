@@ -94,8 +94,7 @@ Essas variáveis capturam tendências de melhora ou deterioração no desempenho
 
 <img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/3b0baff4-e0fc-4cf6-a1f4-404d7bc8ce80" />
 O modelo apresentou desempenho consistente nas validaçõe, indicando boa capacidade de separação entre alunos em risco e não risco.
-<BR/>•Principais métricas:
-<BR/> **ROC AUC ≈ 0.87**
+<BR/>• Principais métricas: ROC AUC ≈ 0.87
 
 
 <BR/><BR/> **Variáveis de destaque**<BR/> 
@@ -117,10 +116,10 @@ O modelo apresentou desempenho consistente nas validaçõe, indicando boa capaci
 <BR/>Com isso, a organização pode tomar decisões baseadas em dados, aumentando a efetividade do programa.
 
  <BR/> Além disso, a aplicação no Streamlit permite:
-  <BR/> **Visão geral do programa:** métricas ferais do programa, ranking de alunos com maior ou menor risco;
-  <BR/>  **Diagnóstico individual:** buscar históricos do aluno, verificar probalidade e analises de notas escolares;
-   <BR/> **Simulção pedagógica**: proferrores podem alterar indicadores para simular e visualizar diferentes cenários para apoiar tomada de decisão;
-   <BR/> Contém um Dicionário de indicadores: para apoiar no entendimento das siglas e uso da aplicação.
+  <BR/> ** •Visão geral do programa:** métricas ferais do programa, ranking de alunos com maior ou menor risco;
+  <BR/>  ** •Diagnóstico individual:** buscar históricos do aluno, verificar probalidade e analises de notas escolares;
+   <BR/> ** •Simulção pedagógica**: proferrores podem alterar indicadores para simular e visualizar diferentes cenários para apoiar tomada de decisão;
+   <BR/> ** •Contém um Dicionário de indicadores:** para apoiar no entendimento das siglas e uso da aplicação.
     <BR/> 
 
 
