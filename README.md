@@ -17,7 +17,7 @@ O modelo desenvolvido não apenas identifica alunos em risco, mas também fornec
 # Arquitetura
 <BR/>
 Após o processo de engenharia de dados, os registros foram unificados em um único dataset contendo aproximadamente:
-<BR/> •3030 registros<br/>
+<BR/>•3030 registros<br/>
 <BR/>•24 variáveis principais<br/>
 <BR/>•3 anos de acompanhamento<BR/><BR/>
 
@@ -37,17 +37,17 @@ Após o processo de engenharia de dados, os registros foram unificados em um ún
 <BR/> Esses indicadores variam de 0 a 10, permitindo avaliar o desempenho e evolução dos estudantes ao longo do tempo.
 
 <BR/>
-<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/e93cf9f3-d96d-48a7-b5ce-bf412b487893" />  **Engenharia de dados** <BR/>
+<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/e93cf9f3-d96d-48a7-b5ce-bf412b487893" /> **Engenharia de dados** <BR/>
 Foi realizado um processo completo de data cleaning e padronização, pois o dataset apresentava diversos desafios,incluindo:
 <BR/>
 <BR/>• O dataset original apresentava diversos desafios:
 <BR/>•	colunas inconsistentes entre anos;
 <BR/>•	valores ausentes;
 <BR/>•	formatação incorreta de algumas variáveis;
-<BR/><BR/>•	indicadores ausentes em determinados anos;
-•	inconsistência no formato de datas;
+<BR/>•	indicadores ausentes em determinados anos;
+<BR/>•	inconsistência no formato de datas;
 
-
+<BR/>
 <img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/3beb991f-30b9-430b-9043-1094085845b2" /> **Padronização de colunas:** <BR/>
 <BR/>•	remoção de acentos
 <BR/>•	padronização de nomes
