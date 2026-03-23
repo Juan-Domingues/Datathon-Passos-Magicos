@@ -89,14 +89,39 @@ Isso permite capturar possíveis dificuldades de progressão no programa.<BR/>
 <BR/><BR/>
 Essas variáveis capturam tendências de melhora ou deterioração no desempenho do aluno.
 
+ # Resultados do modelo
 
-<img width="30" height="35" alt="image" src="https://github.com/user-attachments/assets/3b0baff4-e0fc-4cf6-a1f4-404d7bc8ce80" /> # Resultados do modelo
 
-O modelo apresentou desempenho consistente nas validações.
-Principais métricas:
-ROC AUC ≈ 0.87
-Isso indica boa capacidade de separação entre alunos em risco e não risco.
+<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/3b0baff4-e0fc-4cf6-a1f4-404d7bc8ce80" />
+O modelo apresentou desempenho consistente nas validaçõe, indicando boa capacidade de separação entre alunos em risco e não risco.
+<BR/>•Principais métricas:
+<BR/> **ROC AUC ≈ 0.87**
 
+
+<BR/><BR/> **Variáveis de destaque**<BR/> 
+<BR/> A análise de importância das features revelou que os principais fatores associados ao risco são:
+ <BR/> 1️⃣ IPV – ponto de virada
+ <BR/> 2️⃣ IPP – indicador psicopedagógico
+ <BR/> 3️⃣ IDADE
+<BR/>  4️⃣ FASE
+ <BR/> 5️⃣ IDA – desempenho acadêmico
+<BR/>  6️⃣ IEG – engajamento
+<BR/> Isso sugere que mudanças comportamentais e psicopedagógicas são fortes preditores de risco educacional.
+
+
+<BR/><BR/> A solução desenvolvida no Streamlit permite que a Passos Mágicos utilize uma interface amigável e:
+<BR/> ✔ identifique alunos em risco precocemente
+<BR/> ✔ priorize intervenções pedagógicas
+<BR/> ✔ acompanhe a evolução dos estudantes
+ <BR/> ✔ simule cenários educacionais
+<BR/>Com isso, a organização pode tomar decisões baseadas em dados, aumentando a efetividade do programa.
+
+ <BR/> Além disso, a aplicação no Streamlit permite:
+  <BR/> **Visão geral do programa:** métricas ferais do programa, ranking de alunos com maior ou menor risco;
+  <BR/>  **Diagnóstico individual:** buscar históricos do aluno, verificar probalidade e analises de notas escolares;
+   <BR/> **Simulção pedagógica**: proferrores podem alterar indicadores para simular e visualizar diferentes cenários para apoiar tomada de decisão;
+   <BR/> Contém um Dicionário de indicadores: para apoiar no entendimento das siglas e uso da aplicação.
+    <BR/> 
 
 
 
