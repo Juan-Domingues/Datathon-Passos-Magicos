@@ -116,10 +116,10 @@ O modelo apresentou desempenho consistente nas validaçõe, indicando boa capaci
 <BR/>Com isso, a organização pode tomar decisões baseadas em dados, aumentando a efetividade do programa.
 
  <BR/> Além disso, a aplicação no Streamlit permite:
-  <BR/> •Visão geral do programa: métricas ferais do programa, ranking de alunos com maior ou menor risco;
-  <BR/>  •Diagnóstico individual:buscar históricos do aluno, verificar probalidade e analises de notas escolares;
-   <BR/> •Simulção pedagógica: professores podem alterar indicadores para simular e visualizar diferentes cenários para apoiar tomada de decisão;
-   <BR/> •Contém um Dicionário de indicadores: para apoiar no entendimento das siglas e uso da aplicação.
+  <BR/> ✔  Visão geral do programa: métricas ferais do programa, ranking de alunos com maior ou menor risco;
+  <BR/>  ✔  Diagnóstico individual:buscar históricos do aluno, verificar probalidade e analises de notas escolares;
+   <BR/> ✔  Simulção pedagógica: professores podem alterar indicadores para simular e visualizar diferentes cenários para apoiar tomada de decisão;
+   <BR/> ✔  Contém um Dicionário de indicadores: para apoiar no entendimento das siglas e uso da aplicação.
     <BR/> 
 
 
