@@ -28,16 +28,16 @@ Após o processo de engenharia de dados, os registros foram unificados em um ún
   •	Os indicadores presentes no dataset refletem diferentes dimensões do desenvolvimento do aluno. <br/>
  	
   **Indicador	Significado**
- 	 •INDE	Índice de desempenho educacional geral
- 	 •IAN	Adequação do nível educacional
-   •IDA	Desempenho acadêmico
- 	 •IEG	Engajamento nas atividades
- 	 •IAA	Autoavaliação do aluno
- 	 •IPS	Indicador psicossocial
- 	 •IPP	Indicador psicopedagógico
- 	 •IPV	Ponto de virada no desenvolvimento
+ 	<BR/> •INDE	Índice de desempenho educacional geral
+ <BR/>	 •IAN	Adequação do nível educacional
+<BR/>   •IDA	Desempenho acadêmico
+<BR/> 	 •IEG	Engajamento nas atividades
+ <BR/>	 •IAA	Autoavaliação do aluno
+<BR/> 	 •IPS	Indicador psicossocial
+<BR/> 	 •IPP	Indicador psicopedagógico
+ <BR/>	 •IPV	Ponto de virada no desenvolvimento
 
-Esses indicadores variam de 0 a 10, permitindo avaliar o desempenho e evolução dos estudantes ao longo do tempo.
+<BR/> Esses indicadores variam de 0 a 10, permitindo avaliar o desempenho e evolução dos estudantes ao longo do tempo.
 
 
 # Engenharia de dados <br/>
@@ -66,14 +66,3 @@ Para resolver esse problema foi utilizado um método de imputação baseado em s
 
 
 
-
-# Diagrama de tabela
-![Imagem do WhatsApp de 2025-10-07 à(s) 15 10 16_3a476ae0](https://github.com/user-attachments/assets/0f569549-150d-4032-a0c3-777a33a41e73)
-
-A tabela SOT possui 20 variáveis, distribuídas em grupos:<BR/>
-
-• 4 variáveis de caracterização da pessoa (sexo, idade, escolaridade, cor ou raça).<BR/>
-• 5 variáveis de sintomas clínicos da população (febre, tosse, dificuldade de respirar, fadiga, perda de olfato/paladar).<BR/>
-• 3 variáveis de comportamento da população durante a pandemia (procurou atendimento, Pronto socorro SUS/UPA, Hospital do SUS, uso de hospital privado).<BR/>
-• 3 variáveis econômicas (estava trabalhando, home office, rendimento bruto mensal efetivo, ).<BR/>
-• 3 variáveis de partição (ano, mês, UF).
