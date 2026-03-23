@@ -90,6 +90,12 @@ Isso permite capturar possíveis dificuldades de progressão no programa.<BR/>
 Essas variáveis capturam tendências de melhora ou deterioração no desempenho do aluno.
 
 
+<img width="30" height="35" alt="image" src="https://github.com/user-attachments/assets/3b0baff4-e0fc-4cf6-a1f4-404d7bc8ce80" /> # Resultados do modelo
+
+O modelo apresentou desempenho consistente nas validações.
+Principais métricas:
+ROC AUC ≈ 0.87
+Isso indica boa capacidade de separação entre alunos em risco e não risco.
 
 
 
