@@ -15,14 +15,11 @@ O modelo desenvolvido não apenas identifica alunos em risco, mas também fornec
 É importante ressaltar que os dados da PNAD COVID-19 são baseados em entrevistas domiciliares e autorrelato, não em prontuários médicos. Dessa forma, as conclusões refletem a percepção e o conhecimento dos entrevistados e não devem ser confundidas com dados clínicos de diagnóstico confirmado.
 
 # Arquitetura
-
-
-**• Engenharia de dados:** 
-
-Após o processo de engenharia de dados, os registros foram unificados em um único dataset contendo aproximadamente:<br/>
+<BR/>
+Após o processo de engenharia de dados, os registros foram unificados em um único dataset contendo aproximadamente:
 <BR/> •3030 registros<br/>
 <BR/>•24 variáveis principais<br/>
-<BR/>•3 anos de acompanhamento<br/><br/>
+<BR/>•3 anos de acompanhamento<BR/><BR/>
 
  <img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/2fbdd06f-5f36-4eda-b842-0549ba87a515" />   **Principais indicadores educacionais**<BR/>
   Os indicadores presentes no dataset refletem diferentes dimensões do desenvolvimento do aluno. <br/>
@@ -39,8 +36,8 @@ Após o processo de engenharia de dados, os registros foram unificados em um ún
 
 <BR/> Esses indicadores variam de 0 a 10, permitindo avaliar o desempenho e evolução dos estudantes ao longo do tempo.
 
-
-<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/e93cf9f3-d96d-48a7-b5ce-bf412b487893" />  #Engenharia de dados <br/>
+<BR/>
+<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/e93cf9f3-d96d-48a7-b5ce-bf412b487893" />  **Engenharia de dados** <BR/>
 Foi realizado um processo completo de data cleaning e padronização, pois o dataset apresentava diversos desafios,incluindo:
 <BR/>
 <BR/>• O dataset original apresentava diversos desafios:
@@ -51,17 +48,18 @@ Foi realizado um processo completo de data cleaning e padronização, pois o dat
 •	inconsistência no formato de datas;
 
 
-**Padronização de colunas:** <BR/>
+<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/3beb991f-30b9-430b-9043-1094085845b2" /> **Padronização de colunas:** <BR/>
 <BR/>•	remoção de acentos
 <BR/>•	padronização de nomes
 <BR/>•	unificação de indicadores
 
-**Tratamento de valores faltantes:** <BR/>
+<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/daf6479c-e05c-4b96-a515-e27d185bd187" /> **Tratamento de valores faltantes:** <BR/>
 <BR/>•	Em especial, o indicador IPP não existia no dataset de 2022.
 Para resolver esse problema foi utilizado um método de imputação baseado em similaridade: 
 
 <BR/>**KNN Imputer:** Esse método estima valores ausentes com base em alunos semelhantes considerando os demais indicadores.
 
+<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/f11de075-b161-4b74-a07f-665beaa8b927" />
 <BR/>**Engenharia de Features:** <BR/>
 
 Para melhorar o desempenho do modelo foram criadas features temporais, que capturam a evolução do aluno ao longo dos anos.
