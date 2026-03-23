@@ -24,7 +24,7 @@ Após o processo de engenharia de dados, os registros foram unificados em um ún
 <BR/>•24 variáveis principais<br/>
 <BR/>•3 anos de acompanhamento<br/><br/>
 
-  **Principais indicadores educacionais**<BR/>
+ <img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/2fbdd06f-5f36-4eda-b842-0549ba87a515" />  **Principais indicadores educacionais**<BR/>
   Os indicadores presentes no dataset refletem diferentes dimensões do desenvolvimento do aluno. <br/>
  	
   **Indicador	e seu significado**
@@ -40,6 +40,7 @@ Após o processo de engenharia de dados, os registros foram unificados em um ún
 <BR/> Esses indicadores variam de 0 a 10, permitindo avaliar o desempenho e evolução dos estudantes ao longo do tempo.
 
 
+<img width="24" height="25" alt="image" src="https://github.com/user-attachments/assets/e93cf9f3-d96d-48a7-b5ce-bf412b487893" />
 # Engenharia de dados <br/>
 Foi realizado um processo completo de data cleaning e padronização, pois o dataset apresentava diversos desafios,incluindo:
 <BR/>
